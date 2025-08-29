@@ -34,24 +34,14 @@ A full-stack ecommerce web application built with the MERN stack (MongoDB, Expre
 - JWT Authentication
 - Bcrypt for password hashing
 
-## 📁 Project Structure
+### Database:
 
-ecommerce-project/
-├── client/ # Frontend React app
-│ ├── public/
-│ │ └── images/ # Category images
-│ ├── src/
-│ │ ├── components/ # Reusable components
-│ │ ├── context/ # Context providers
-│ │ ├── pages/ # Page components
-│ │ └── App.js
-│ └── package.json
-├── server/ # Backend Express app
-│ ├── middleware/ # Auth middleware
-│ ├── models/ # Mongoose schemas
-│ ├── routes/ # API routes
-│ └── server.js
-└── README.md
+- MongoDB
+
+### Image Storing:
+
+- cloudinary
+
 
 ## 🚀 Getting Started
 
